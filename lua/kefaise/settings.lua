@@ -37,7 +37,7 @@ vim.api.nvim_create_autocmd(
     pattern = {"*"},
     callback = function()
       vim.cmd("if isdirectory(expand('%:p')) | cd %:p | endif")
-      LoadNvimLua()
+      pcall(function() LoadNvimLua() end)
     end
   }
 )

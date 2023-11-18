@@ -24,6 +24,7 @@ require('mason-lspconfig').setup({
     "dockerls",
     "marksman",
     "pylsp",
+    "texlab",
   },
   handlers = {
     lsp_zero.default_setup,
