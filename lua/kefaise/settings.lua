@@ -94,3 +94,20 @@ vim.cmd.colorscheme "catppuccin"
 vim.o.exrc = true
 vim.o.secure = true
 
+vim.cmd("let g:terminal_color_0  = '#ec3436'")
+vim.cmd("let g:terminal_color_1  = '#e72828'")
+vim.cmd("let g:terminal_color_2  = '#4e9a06'")
+vim.cmd("let g:terminal_color_3  = '#c4a000'")
+vim.cmd("let g:terminal_color_4  = '#1996c7'")
+vim.cmd("let g:terminal_color_5  = '#75507b'")
+vim.cmd("let g:terminal_color_6  = '#0b939b'")
+vim.cmd("let g:terminal_color_7  = '#d3d7cf'")
+vim.cmd("let g:terminal_color_8  = '#555753'")
+vim.cmd("let g:terminal_color_9  = '#ef2929'")
+vim.cmd("let g:terminal_color_10 = '#8ae234'")
+vim.cmd("let g:terminal_color_11 = '#fce94f'")
+vim.cmd("let g:terminal_color_12 = '#729fcf'")
+vim.cmd("let g:terminal_color_13 = '#ad7fa8'")
+vim.cmd("let g:terminal_color_14 = '#00f5e9'")
+vim.cmd("let g:terminal_color_15 = '#eeeeec'")
+

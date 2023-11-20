@@ -81,5 +81,7 @@ require("lazy").setup({
     },
   },
   {"nvim-lualine/lualine.nvim"},
+  {"norcalli/nvim-colorizer.lua"},
+  {"uga-rosa/ccc.nvim"},
 })
 

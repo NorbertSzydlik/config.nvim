@@ -7,4 +7,5 @@ vim.g.maplocalleader = " "
 vim.keymap.set("n", "<leader>aa", mark.add_file, { desc = "Add file mark" })
 vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu, { desc = "Toggle mark quick menu" })
 vim.keymap.set("n", "<leader>aq", ui.toggle_quick_menu, { desc = "Toggle mark quick menu" })
+vim.keymap.set("n", "<leader>fm", ui.toggle_quick_menu, { desc = "Toggle mark quick menu" })
 
