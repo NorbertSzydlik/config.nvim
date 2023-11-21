@@ -15,7 +15,10 @@ require("lazy").setup({
   {
     "nvim-telescope/telescope.nvim",
     branch = "0.1.x",
-    dependencies = { "nvim-lua/plenary.nvim" },
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "BurntSushi/ripgrep",
+    },
   },
   {
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
@@ -83,5 +86,11 @@ require("lazy").setup({
   {"nvim-lualine/lualine.nvim"},
   {"norcalli/nvim-colorizer.lua"},
   {"uga-rosa/ccc.nvim"},
+  {
+    "samjwill/nvim-unception",
+    init = function()
+      vim.g.unception_open_buffer_in_new_tab = true
+    end
+  },
 })
 
